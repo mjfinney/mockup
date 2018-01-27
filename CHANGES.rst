@@ -1,20 +1,41 @@
 Changelog
 =========
 
-2.7.7 (Unreleased)
-------------------
+3.0 (unreleased)
+----------------
+
+TODO:
+
+- Refactor docs like in Patterns to get rid of react.
+
+- Refactor jquery.recurrenceinput.js dependencies
+
 
 Breaking changes:
 
-- *add item here*
+* Refactor for usage with ``npm`` instead of ``bower``.
+  [thet]
+
+* Remove obsolete dependencies:
+    - console-polyfill
+    - es5-shim
+    - selectivizr
+    - js-shortcuts    
+    - marked
+    - react
+    - JSXTransformer
+  [thet]
+
+* Remove support for IE < 9.
+  [thet]
 
 New features:
 
-- *add item here*
+* add items here
 
 Bug fixes:
 
-- *add item here*
+* add items here
 
 
 2.7.6 (2018-10-08)
