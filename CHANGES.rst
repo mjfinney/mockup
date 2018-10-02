@@ -7,13 +7,17 @@ Changelog
 TODO:
 
 - Refactor docs like in Patterns to get rid of react.
+- since we removed marked and react, refactor docs like in Patterns.
 
 - Refactor jquery.recurrenceinput.js dependencies
 
 
 Breaking changes:
 
-* Refactor for usage with ``npm`` instead of ``bower``.
+* Uses now ``yarn`` instead of ``bower``.
+  ``bower.json`` is dropped, ``package.json`` is extended and all packages go into ``mockup/node_modules``.
+  Note: you have to use ``yarn`` for that to work, as with npm there is no way to customize the modules directory.
+  All references in LESS files to ``bowerPath`` are kept for a frictionless upgrade.
   [thet]
 
 * Remove obsolete dependencies:
