@@ -35,7 +35,8 @@ Breaking changes:
 
 New features:
 
-* add items here
+* Add ``plone-patterns-toolbar`` pattern from CMFPlone.
+  [thet]
 
 Bug fixes:
 
