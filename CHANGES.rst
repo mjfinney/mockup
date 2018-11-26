@@ -40,7 +40,8 @@ New features:
 
 Bug fixes:
 
-* add items here
+* Improve docs styles
+  [ale-rt]
 
 
 2.7.6 (2018-10-08)
