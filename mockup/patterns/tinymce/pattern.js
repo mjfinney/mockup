@@ -144,6 +144,7 @@ define([
         imageAlign: _t('Align'),
         scale: _t('Size'),
         alt: _t('Alternative Text'),
+        caption: _t('Caption'),
         externalImage: _t('External Image URL (can be relative within this site or absolute if it starts with http:// or https://)')
       },
       // URL generation options
